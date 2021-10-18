@@ -5,7 +5,6 @@ date: ""
 output: 
   html_document: 
     css: hessen_style.css
-    self_contained: no
 ---
 
 ```{r setup, include=FALSE}
