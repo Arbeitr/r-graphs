@@ -2,11 +2,14 @@ body{
     background-color: #eef2ee;
 }
 .main-container {
-	padding-top: 10vh;
+	padding-top: 50vh;
 }
 svg:not(:root) {
 	overflow: visible;
 }
-#htmlwidget-8258cea6a570bb7c3277 {
+#htmlwidget-eb5612ae587347f1f9b7 {
 	margin: auto;
+}
+* {
+    font-size: 1.2rem !important;
 }

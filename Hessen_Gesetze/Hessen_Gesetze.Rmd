@@ -5,6 +5,7 @@ date: ""
 output: 
   html_document: 
     css: hessen_style.css
+    self_contained: no
 ---
 
 ```{r setup, include=FALSE}
@@ -33,5 +34,5 @@ Hessen <- c("#194343", "#2d4f9e", "#d4232e", "#eebb35", "#245f5f")
 Hide_Tool <- c(FALSE)
 Hide_Ticks <- c(FALSE)
 chorddiag(m, groupColors = Hessen, showTooltips = Hide_Tool, showTicks = Hide_Ticks, groupPadding = 5)
-m
+# m
 ```
