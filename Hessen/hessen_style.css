@@ -1,0 +1,12 @@
+body{
+    background-color: #eef2ee;
+}
+.main-container {
+	padding-top: 10vh;
+}
+svg:not(:root) {
+	overflow: visible;
+}
+#htmlwidget-8258cea6a570bb7c3277 {
+	margin: auto;
+}
