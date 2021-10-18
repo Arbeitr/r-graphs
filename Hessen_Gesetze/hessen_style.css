@@ -1,9 +1,9 @@
 body{
     background-color: #eef2ee;
 }
-.main-container {
+/*.main-container {
 	padding-top: 50vh;
-}
+}*/
 svg:not(:root) {
 	overflow: visible;
 }
