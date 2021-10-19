@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{
     background-color: #eef2ee;
 }
@@ -12,4 +13,64 @@ svg:not(:root) {
 }
 * {
     font-size: 1.2rem !important;
+=======
+body{
+    background-color: #eef2ee;
+}
+.main-container {
+	padding-top: 20vh;
+}
+svg:not(:root) {
+	overflow: visible;
+}
+#htmlwidget-eb5612ae587347f1f9b7 {
+	margin: auto;
+}
+* {
+    font-size: 1rem !important;
+}
+/*
+text#BGG {
+    transform: rotate(268deg);
+}
+text#OZG {
+    transform: rotate(268deg);
+}
+text[id='EN 301 549'] {
+    transform: rotate(88deg);
+}
+text[id='HVBIT'] {
+    transform: rotate(88deg);
+}
+text[id='EU 2021/1139'] {
+    transform: rotate(88deg);
+}
+text[id='EU 2018/2048'] {
+    transform: rotate(88deg);
+}
+text[id='Richtlinie (EU) 2016/2102'] {
+    transform: rotate(88deg);
+}
+text[id='EU 2018/1524'] {
+    transform: rotate(88deg);
+}
+text[id='HEGovG'] {
+    transform: rotate(88deg);
+}
+text[id='WCAG 2.1'] {
+    transform: rotate(268deg);
+}
+text[id='HessBGG'] {
+    transform: rotate(268deg);
+}
+text[id='BITV 2.0'] {
+    transform: rotate(271deg);
+}
+text{
+	text-anchor: middle !important;
+}*/
+/*rotation around*/
+g.names {
+    transform: rotate(30deg);
+>>>>>>> Stashed changes
 }

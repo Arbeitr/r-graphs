@@ -193,7 +193,7 @@ HTMLWidgets.widget({
         // add tick labels
         ticks.append("text")
              .attr("x", 0)
-             .attr("dy", ".35em")
+             .attr("dy", ".38em")
              .style("font-size", ticklabelFontsize + "px")
              .style("font-family", "sans-serif")
              .attr("transform", function(d) { return d.angle > Math.PI ? "rotate(180)translate(-8)" : "translate(8)"; })
@@ -248,6 +248,7 @@ HTMLWidgets.widget({
                            return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
                                 + "translate(" + (outerRadius + d.padding) + ", 0)";
                        });
+        //label config
         names.append("text")
             .attr("x", 0)
             .attr("dy", ".35em")
@@ -256,9 +257,12 @@ HTMLWidgets.widget({
             .attr("transform", function(d) {
                 return d.handside == "left" ? "rotate(180)" : null;
             })
-            .style("text-anchor", function(d) { return d.handside == "left" ? "end" : "start"; })
-            .text(function(d) { return d.label; })
-            .attr("id", function(d) { return d.label; });
+            .style("text-anchor", function(d) { return d.handside == "left" ? "end" : "start";})
+            .style("width", "500")
+            .attr("id", function(d) { return d.label; })
+            .append("textPath")
+            .attr('xlink:href', function(d) { return d.label; })
+            .text(function(d) { return d.label; });
     }
 
     if (categoryNames) {
